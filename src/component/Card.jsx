@@ -9,7 +9,7 @@ function Card(props) {
             <img
               src={props.img}
               alt=""
-              className={`w-full ${props.cardImgHeight} rounded-2xl`}
+              className={`w-full h-full max-w-[368px] rounded-2xl`}
             />
           </div>
 

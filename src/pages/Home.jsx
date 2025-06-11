@@ -127,10 +127,7 @@ function Home() {
                     cardBgColor={
                       'bg-[linear-gradient(180deg,_#E7F9FD99_37%,_#E7F9FDFF_10%)]'
                     }
-                    cardImgHeight={'h-[62]'}
-                    cardWidthandHeight={
-                      'w-[100%] sm:w-[35rem] md:w-[100%] lg:w-[88%] xl:w-[100%] h-full '
-                    }
+                    cardWidthandHeight={'h-full w-full max-w-[400px]'}
                   />
 
                   {index === 4 && (
