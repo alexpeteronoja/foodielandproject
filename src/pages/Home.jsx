@@ -114,7 +114,7 @@ function Home() {
               Simple and tasty recipes
             </p>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center ">
               {SimpleRecipe.map((cardItem, index) => (
                 <React.Fragment key={index}>
                   <Card
@@ -127,7 +127,9 @@ function Home() {
                     cardBgColor={
                       'bg-[linear-gradient(180deg,_#E7F9FD99_37%,_#E7F9FDFF_10%)]'
                     }
-                    cardWidthandHeight={'h-full w-full max-w-[400px]'}
+                    cardWidthandHeight={
+                      'h-full w-full lg:w-[85%] max-w-[400px] xl:w-full'
+                    }
                   />
 
                   {index === 4 && (
